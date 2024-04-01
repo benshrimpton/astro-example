@@ -14,7 +14,7 @@ onMounted(() => {
 <template>
   <div>
     <div v-if="data">
-      <div v-for="i in data" :key="i.id" style="border : solid 1px:">
+      <div v-for="i in data" :key="i.id" style="border : solid 1px">
         {{ i.title }}
       </div>
     </div>
